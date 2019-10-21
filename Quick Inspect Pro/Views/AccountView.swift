@@ -27,44 +27,44 @@ struct AccountNavLink: View {
 }
 
 struct AccountView: View {
-    @State var modalDisplayed = false
     
     var body: some View {
-
-        
         NavigationView {
             List {
                 Section(header: ListSectionHeader("You")) {
-                    NavigationLink(destination: NewInspectionView()) {
-                        ListItemLink("Name", value: "Westin Funk")
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Name",  "Westin Funk")
                     }
                     NavigationLink(destination: InspectionsView()) {
-                        ListItemLink("Email", value: "westinfunk@gmail.com")
+                        ListItemLink("Email", "westinfunk@gmail.com")
                     }
                 }
                 Section(header: ListSectionHeader("Team")) {
-                    NavigationLink(destination: NewInspectionView()) {
-                        ListItemLink("Organization", value: "")
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Organization", "")
                     }
-                    NavigationLink(destination: NewInspectionView()) {
-                        ListItemLink("Address", value: "")
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Address", "")
                     }
-                    NavigationLink(destination: NewInspectionView()) {
-                        ListItemLink("Phone", value: "")
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Phone", "")
                     }
-                    NavigationLink(destination: NewInspectionView()) {
-                        ListItemLink("Website", value: "")
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Website", "")
                     }
-                    NavigationLink(destination: NewInspectionView()) {
-                        ListItemLink("Logo", value: "")
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Logo", "")
                     }
                 }
                 Section(header: ListSectionHeader("Settings")) {
-                    NavigationLink(destination: NewInspectionView()) {
+                    NavigationLink(destination: TemplatesView()) {
                         ListItemLink("Integrations")
                     }
+                    NavigationLink(destination: TemplatesView()) {
+                        ListItemLink("Logout")
+                    }
                 }
-            }.navigationBarTitle("Account")
+                }.navigationBarTitle("Account")
         }
     }
 }

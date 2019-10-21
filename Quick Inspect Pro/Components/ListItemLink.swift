@@ -12,14 +12,14 @@ struct ListItemLink: View {
     var title: String
     var value: String
     
-    init(_ title: String, value: String = "") {
+    init(_ title: String, _ value: String = "") {
         self.title = title;
         self.value = value;
     }
     
     var body: some View {
             HStack {
-                Text(self.title).font(.headline)
+                Text(self.title).font(.subheadline)
                 Spacer()
                 Text(self.value).font(.subheadline)
             }

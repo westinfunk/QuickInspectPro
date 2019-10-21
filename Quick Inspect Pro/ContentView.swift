@@ -13,26 +13,30 @@ struct ContentView: View {
  
     var body: some View {
         TabView(selection: $selection){
-            LinearGradient(gradient: /*@START_MENU_TOKEN@*/Gradient(colors: [Color.red, Color.blue])/*@END_MENU_TOKEN@*/, startPoint: .leading, endPoint: .trailing)
-                .font(.title)
-                .multilineTextAlignment(.center)
-                .tabItem {
-                    VStack {
-                        Image("first")
-                        Text("Last")
-                    }
+                InspectionsView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "folder")
+                            Text("Inspections")
+                        }
                 }
                 .tag(0)
-            Text("Second View")
-                .font(.title)
-                .tabItem {
-                    VStack {
-                        Image("second")
-                        Text("Second")
-                    }
+                TemplatesView()
+                    .tabItem {
+                        VStack {
+                            Image(systemName: "text.badge.plus")
+                            Text("New")
+                        }
                 }
                 .tag(1)
-        }
+                AccountView()
+                .tabItem {
+                    VStack {
+                        Image(systemName: "person")
+                        Text("Account")
+                    }
+                }.tag(2)
+            }
     }
 }
 

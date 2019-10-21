@@ -16,11 +16,21 @@
 		CDBA8A4E235BF3DC00B5EFED /* Quick_Inspect_ProTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A4D235BF3DC00B5EFED /* Quick_Inspect_ProTests.swift */; };
 		CDBA8A59235BF3DC00B5EFED /* Quick_Inspect_ProUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A58235BF3DC00B5EFED /* Quick_Inspect_ProUITests.swift */; };
 		CDBA8A68235BF4EC00B5EFED /* InspectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A67235BF4EC00B5EFED /* InspectionsView.swift */; };
-		CDBA8A6A235BF4FC00B5EFED /* NewInspectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A69235BF4FC00B5EFED /* NewInspectionView.swift */; };
 		CDBA8A6C235BF50700B5EFED /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A6B235BF50700B5EFED /* AccountView.swift */; };
 		CDBA8A6F235BFBE000B5EFED /* ListSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A6E235BFBE000B5EFED /* ListSectionHeader.swift */; };
 		CDBA8A71235BFDE600B5EFED /* ListItemLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A70235BFDE600B5EFED /* ListItemLink.swift */; };
-		CDBA8A73235C02BC00B5EFED /* EditAccountValueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A72235C02BC00B5EFED /* EditAccountValueView.swift */; };
+		CDBA8A75235C0DC300B5EFED /* TemplatesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A74235C0DC300B5EFED /* TemplatesView.swift */; };
+		CDBA8A77235C880F00B5EFED /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A76235C880F00B5EFED /* ProfileView.swift */; };
+		CDBA8A7A235C921000B5EFED /* Template.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A79235C921000B5EFED /* Template.swift */; };
+		CDBA8A7C235D332D00B5EFED /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A7B235D332D00B5EFED /* LoginView.swift */; };
+		CDBA8A80235D868800B5EFED /* utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A7F235D868800B5EFED /* utils.swift */; };
+		CDBA8A82235E054200B5EFED /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A81235E054200B5EFED /* Account.swift */; };
+		CDBA8A84235E054C00B5EFED /* Inspection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A83235E054C00B5EFED /* Inspection.swift */; };
+		CDBA8A86235E16CA00B5EFED /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A85235E16CA00B5EFED /* Category.swift */; };
+		CDBA8A88235E16DC00B5EFED /* Subcategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A87235E16DC00B5EFED /* Subcategory.swift */; };
+		CDBA8A8A235E171100B5EFED /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A89235E171100B5EFED /* Note.swift */; };
+		CDBA8A8C235E174400B5EFED /* Parameter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A8B235E174400B5EFED /* Parameter.swift */; };
+		CDBA8A8E235E177E00B5EFED /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDBA8A8D235E177E00B5EFED /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,11 +66,21 @@
 		CDBA8A58235BF3DC00B5EFED /* Quick_Inspect_ProUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quick_Inspect_ProUITests.swift; sourceTree = "<group>"; };
 		CDBA8A5A235BF3DC00B5EFED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CDBA8A67235BF4EC00B5EFED /* InspectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InspectionsView.swift; sourceTree = "<group>"; };
-		CDBA8A69235BF4FC00B5EFED /* NewInspectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewInspectionView.swift; sourceTree = "<group>"; };
 		CDBA8A6B235BF50700B5EFED /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		CDBA8A6E235BFBE000B5EFED /* ListSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSectionHeader.swift; sourceTree = "<group>"; };
 		CDBA8A70235BFDE600B5EFED /* ListItemLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListItemLink.swift; sourceTree = "<group>"; };
-		CDBA8A72235C02BC00B5EFED /* EditAccountValueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditAccountValueView.swift; sourceTree = "<group>"; };
+		CDBA8A74235C0DC300B5EFED /* TemplatesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplatesView.swift; sourceTree = "<group>"; };
+		CDBA8A76235C880F00B5EFED /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		CDBA8A79235C921000B5EFED /* Template.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Template.swift; sourceTree = "<group>"; };
+		CDBA8A7B235D332D00B5EFED /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		CDBA8A7F235D868800B5EFED /* utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utils.swift; sourceTree = "<group>"; };
+		CDBA8A81235E054200B5EFED /* Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		CDBA8A83235E054C00B5EFED /* Inspection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inspection.swift; sourceTree = "<group>"; };
+		CDBA8A85235E16CA00B5EFED /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		CDBA8A87235E16DC00B5EFED /* Subcategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subcategory.swift; sourceTree = "<group>"; };
+		CDBA8A89235E171100B5EFED /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		CDBA8A8B235E174400B5EFED /* Parameter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parameter.swift; sourceTree = "<group>"; };
+		CDBA8A8D235E177E00B5EFED /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +131,7 @@
 		CDBA8A35235BF3DA00B5EFED /* Quick Inspect Pro */ = {
 			isa = PBXGroup;
 			children = (
+				CDBA8A78235C920100B5EFED /* Model */,
 				CDBA8A6D235BFBC900B5EFED /* Components */,
 				CDBA8A66235BF4BB00B5EFED /* Views */,
 				CDBA8A36235BF3DA00B5EFED /* AppDelegate.swift */,
@@ -120,6 +141,7 @@
 				CDBA8A41235BF3DC00B5EFED /* LaunchScreen.storyboard */,
 				CDBA8A44235BF3DC00B5EFED /* Info.plist */,
 				CDBA8A3E235BF3DC00B5EFED /* Preview Content */,
+				CDBA8A7F235D868800B5EFED /* utils.swift */,
 			);
 			path = "Quick Inspect Pro";
 			sourceTree = "<group>";
@@ -154,9 +176,10 @@
 			isa = PBXGroup;
 			children = (
 				CDBA8A67235BF4EC00B5EFED /* InspectionsView.swift */,
-				CDBA8A69235BF4FC00B5EFED /* NewInspectionView.swift */,
 				CDBA8A6B235BF50700B5EFED /* AccountView.swift */,
-				CDBA8A72235C02BC00B5EFED /* EditAccountValueView.swift */,
+				CDBA8A74235C0DC300B5EFED /* TemplatesView.swift */,
+				CDBA8A76235C880F00B5EFED /* ProfileView.swift */,
+				CDBA8A7B235D332D00B5EFED /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -168,6 +191,21 @@
 				CDBA8A70235BFDE600B5EFED /* ListItemLink.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		CDBA8A78235C920100B5EFED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CDBA8A79235C921000B5EFED /* Template.swift */,
+				CDBA8A81235E054200B5EFED /* Account.swift */,
+				CDBA8A83235E054C00B5EFED /* Inspection.swift */,
+				CDBA8A85235E16CA00B5EFED /* Category.swift */,
+				CDBA8A87235E16DC00B5EFED /* Subcategory.swift */,
+				CDBA8A89235E171100B5EFED /* Note.swift */,
+				CDBA8A8B235E174400B5EFED /* Parameter.swift */,
+				CDBA8A8D235E177E00B5EFED /* Photo.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,14 +340,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDBA8A6C235BF50700B5EFED /* AccountView.swift in Sources */,
+				CDBA8A82235E054200B5EFED /* Account.swift in Sources */,
+				CDBA8A77235C880F00B5EFED /* ProfileView.swift in Sources */,
+				CDBA8A8C235E174400B5EFED /* Parameter.swift in Sources */,
+				CDBA8A84235E054C00B5EFED /* Inspection.swift in Sources */,
+				CDBA8A8A235E171100B5EFED /* Note.swift in Sources */,
+				CDBA8A88235E16DC00B5EFED /* Subcategory.swift in Sources */,
 				CDBA8A37235BF3DA00B5EFED /* AppDelegate.swift in Sources */,
+				CDBA8A80235D868800B5EFED /* utils.swift in Sources */,
 				CDBA8A39235BF3DA00B5EFED /* SceneDelegate.swift in Sources */,
 				CDBA8A68235BF4EC00B5EFED /* InspectionsView.swift in Sources */,
+				CDBA8A7A235C921000B5EFED /* Template.swift in Sources */,
+				CDBA8A8E235E177E00B5EFED /* Photo.swift in Sources */,
+				CDBA8A75235C0DC300B5EFED /* TemplatesView.swift in Sources */,
 				CDBA8A6F235BFBE000B5EFED /* ListSectionHeader.swift in Sources */,
+				CDBA8A86235E16CA00B5EFED /* Category.swift in Sources */,
+				CDBA8A7C235D332D00B5EFED /* LoginView.swift in Sources */,
 				CDBA8A3B235BF3DA00B5EFED /* ContentView.swift in Sources */,
 				CDBA8A71235BFDE600B5EFED /* ListItemLink.swift in Sources */,
-				CDBA8A73235C02BC00B5EFED /* EditAccountValueView.swift in Sources */,
-				CDBA8A6A235BF4FC00B5EFED /* NewInspectionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +527,7 @@
 				DEVELOPMENT_TEAM = 3P982627L8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Quick Inspect Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -499,6 +548,7 @@
 				DEVELOPMENT_TEAM = 3P982627L8;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = "Quick Inspect Pro/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
